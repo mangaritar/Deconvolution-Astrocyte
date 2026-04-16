@@ -1,0 +1,590 @@
+ABIS	RNAseq + Microarray	3.0
+ABIS	Heterogeneous tissues	3.0
+ABIS	≥ 5 cell types	3.0
+ABIS	GEP	1.0
+ABIS	No CP	3.0
+ABIS	CP	3.0
+ABIS	Partial	1.0
+ABIS	Supervised	1.0
+ABIS	Regression	2.0
+ABIS	Células inmunitarias	1.0
+ABIS	Células sanguíneas	1.0
+ABIS	R	3.0
+ABIS	Open source	3.0
+ABIS	Medium	2.0
+ABIS	2019	2.0
+ABIS	615	3.0
+BayesCCE	Microarray	1.0
+BayesCCE	Heterogeneous tissues	3.0
+BayesCCE	≥ 5 cell types	3.0
+BayesCCE	GEP	1.0
+BayesCCE	No CP	3.0
+BayesCCE	CP	3.0
+BayesCCE	Partial	1.0
+BayesCCE	Semi-supervised	2.0
+BayesCCE	Regression	2.0
+BayesCCE	Flexibility for methylation data handling	1.0
+BayesCCE	Células sanguíneas	1.0
+BayesCCE	Matlab	3.0
+BayesCCE	Open source	3.0
+BayesCCE	Medium	2.0
+BayesCCE	2018	2.0
+BayesCCE	52	2.0
+BayesPrism	RNAseq	1.0
+BayesPrism	Heterogeneous tissues	3.0
+BayesPrism	≥ 5 cell types	3.0
+BayesPrism	GEP	1.0
+BayesPrism	No CP	3.0
+BayesPrism	GEP	3.0
+BayesPrism	CP	3.0
+BayesPrism	Partial	1.0
+BayesPrism	Semi-supervised	2.0
+BayesPrism	Probabilistic	3.0
+BayesPrism	Prediction of clinical phenotypes and biological processes	2.0
+BayesPrism	Transcriptoma Cáncer	1.0
+BayesPrism	R	3.0
+BayesPrism	Open source	3.0
+BayesPrism	Medium	2.0
+BayesPrism	2022	3.0
+BayesPrism	419	3.0
+Bisque	RNAseq	1.0
+Bisque	Heterogeneous tissues	3.0
+Bisque	≥ 5 cell types	3.0
+Bisque	GEP	1.0
+Bisque	No CP	3.0
+Bisque	CP	3.0
+Bisque	Partial	1.0
+Bisque	Supervised	1.0
+Bisque	Regression	2.0
+Bisque	Scalable to medium–large cohorts	1.0
+Bisque	Tejidos mixtos	1.0
+Bisque	R	3.0
+Bisque	Open source	3.0
+Bisque	Medium	2.0
+Bisque	2020	2.0
+Bisque	388	3.0
+BLADE	RNAseq	1.0
+BLADE	Heterogeneous tissues	3.0
+BLADE	≥ 5 cell types	3.0
+BLADE	GEP	1.0
+BLADE	No CP	3.0
+BLADE	GEP	3.0
+BLADE	CP	3.0
+BLADE	Complete	3.0
+BLADE	Semi-supervised	2.0
+BLADE	Regression	2.0
+BLADE	Tejidos mixtos	1.0
+BLADE	Python	1.0
+BLADE	Open source	3.0
+BLADE	High	3.0
+BLADE	2021	3.0
+BLADE	25	1.0
+BrainInABlender	RNAseq + Microarray	3.0
+BrainInABlender	Heterogeneous tissues	3.0
+BrainInABlender	≥ 5 cell types	3.0
+BrainInABlender	GEP	1.0
+BrainInABlender	No CP	3.0
+BrainInABlender	CP	3.0
+BrainInABlender	Partial	1.0
+BrainInABlender	Supervised	1.0
+BrainInABlender	Enrichment	2.0
+BrainInABlender	Scalable to medium–large cohorts	1.0
+BrainInABlender	Sistema nervioso	2.0
+BrainInABlender	Tejidos neuronales	2.0
+BrainInABlender	R	3.0
+BrainInABlender	Open source	3.0
+BrainInABlender	Medium	2.0
+BrainInABlender	2018	2.0
+BrainInABlender	73	2.0
+BSEQ-sc	RNAseq	1.0
+BSEQ-sc	Heterogeneous tissues	3.0
+BSEQ-sc	≥ 5 cell types	3.0
+BSEQ-sc	GEP	1.0
+BSEQ-sc	No CP	3.0
+BSEQ-sc	CP	3.0
+BSEQ-sc	Partial	1.0
+BSEQ-sc	Semi-supervised	2.0
+BSEQ-sc	Regression	2.0
+BSEQ-sc	Comparative analysis of orthologous genes across species	1.0
+BSEQ-sc	Tejidos mixtos	1.0
+BSEQ-sc	R	3.0
+BSEQ-sc	Open source	3.0
+BSEQ-sc	Medium	2.0
+BSEQ-sc	2016	2.0
+BSEQ-sc	108	3.0
+CDSeq	RNAseq + Microarray	3.0
+CDSeq	Heterogeneous tissues	3.0
+CDSeq	≥ 5 cell types	3.0
+CDSeq	No GEP	3.0
+CDSeq	No CP	3.0
+CDSeq	GEP	3.0
+CDSeq	CP	3.0
+CDSeq	Complete	3.0
+CDSeq	Unsupervised	3.0
+CDSeq	Probabilistic	3.0
+CDSeq	Automatic cell-type annotation	2.0
+CDSeq	Scalable to medium–large cohorts	1.0
+CDSeq	Tejidos mixtos	1.0
+CDSeq	Células sanguíneas	1.0
+CDSeq	Células inmunitarias	1.0
+CDSeq	R	3.0
+CDSeq	Matlab	3.0
+CDSeq	Open source	3.0
+CDSeq	Medium	2.0
+CDSeq	2019	2.0
+CDSeq	65	2.0
+CellCODE	Microarray	1.0
+CellCODE	Heterogeneous tissues	3.0
+CellCODE	≥ 5 cell types	3.0
+CellCODE	No GEP	3.0
+CellCODE	No CP	3.0
+CellCODE	GEP	3.0
+CellCODE	CP	3.0
+CellCODE	Complete	3.0
+CellCODE	Semi-supervised	2.0
+CellCODE	Matrix factorisation	3.0
+CellCODE	Células sanguíneas	1.0
+CellCODE	R	3.0
+CellCODE	C++	1.0
+CellCODE	Open source	3.0
+CellCODE	High	3.0
+CellCODE	2015	2.0
+CellCODE	106	3.0
+CellMapper	Microarray	1.0
+CellMapper	Heterogeneous tissues	3.0
+CellMapper	≥ 5 cell types	3.0
+CellMapper	GEP	1.0
+CellMapper	No CP	3.0
+CellMapper	GEP	3.0
+CellMapper	Partial	1.0
+CellMapper	Semi-supervised	2.0
+CellMapper	Matrix factorisation	3.0
+CellMapper	Rare cell-type annotation	1.0
+CellMapper	Sistema nervioso	2.0
+CellMapper	Tejidos neuronales	2.0
+CellMapper	R	3.0
+CellMapper	Web tool	1.0
+CellMapper	Restricted	1.0
+CellMapper	Medium	2.0
+CellMapper	2015	2.0
+CellMapper	20	1.0
+CIBERSORT	RNAseq	1.0
+CIBERSORT	Heterogeneous tissues	3.0
+CIBERSORT	≥ 5 cell types	3.0
+CIBERSORT	GEP	1.0
+CIBERSORT	No CP	3.0
+CIBERSORT	CP	3.0
+CIBERSORT	Partial	1.0
+CIBERSORT	Supervised	1.0
+CIBERSORT	Regression	2.0
+CIBERSORT	Statistical significance estimation	1.0
+CIBERSORT	Transcriptoma cáncer	1.0
+CIBERSORT	R	3.0
+CIBERSORT	Web tool	1.0
+CIBERSORT	Open source	3.0
+CIBERSORT	Medium	2.0
+CIBERSORT	2015	2.0
+CIBERSORT	11915	3.0
+CIBERSORTx	RNAseq + Microarray	3.0
+CIBERSORTx	Heterogeneous tissues	3.0
+CIBERSORTx	≥ 5 cell types	3.0
+CIBERSORTx	GEP	1.0
+CIBERSORTx	No CP	3.0
+CIBERSORTx	GEP	3.0
+CIBERSORTx	CP	3.0
+CIBERSORTx	Complete	3.0
+CIBERSORTx	Semi-supervised	2.0
+CIBERSORTx	Regression	2.0
+CIBERSORTx	Reconstruction of cellular states and tissue ecosystems	2.0
+CIBERSORTx	Transcriptoma cáncer	1.0
+CIBERSORTx	R	3.0
+CIBERSORTx	Web tool	1.0
+CIBERSORTx	Open source	3.0
+CIBERSORTx	Medium	2.0
+CIBERSORTx	2019	2.0
+CIBERSORTx	3584	3.0
+csSAM	Microarray	1.0
+csSAM	Heterogeneous tissues	3.0
+csSAM	≥ 5 cell types	3.0
+csSAM	No GEP	3.0
+csSAM	CP	1.0
+csSAM	GEP	3.0
+csSAM	CP	3.0
+csSAM	Complete	3.0
+csSAM	Supervised	1.0
+csSAM	Regression	2.0
+csSAM	Células sanguíneas	1.0
+csSAM	R	3.0
+csSAM	Restricted	1.0
+csSAM	Medium	2.0
+csSAM	2010	1.0
+csSAM	482	3.0
+debCAM	RNAseq + Microarray	3.0
+debCAM	Heterogeneous tissues	3.0
+debCAM	≥ 5 cell types	3.0
+debCAM	No GEP	3.0
+debCAM	No CP	3.0
+debCAM	GEP	3.0
+debCAM	CP	3.0
+debCAM	Complete	3.0
+debCAM	Unsupervised	3.0
+debCAM	Convex hull	2.0
+debCAM	Applicable to multi-omics data	1.0
+debCAM	Identification of relationships between cell subtypes	2.0
+debCAM	Tejidos mixtos	1.0
+debCAM	R	3.0
+debCAM	Open source	3.0
+debCAM	Medium	2.0
+debCAM	2020	2.0
+debCAM	26	1.0
+Deblender	RNAseq + Microarray	3.0
+Deblender	Heterogeneous tissues	3.0
+Deblender	≥ 5 cell types	3.0
+Deblender	No GEP	3.0
+Deblender	No CP	3.0
+Deblender	GEP	3.0
+Deblender	CP	3.0
+Deblender	Complete	3.0
+Deblender	Semi-supervised	2.0
+Deblender	Matrix factorisation	3.0
+Deblender	Automatic cell-type annotation	2.0
+Deblender	Transcriptoma cáncer	1.0
+Deblender	Matlab	3.0
+Deblender	Open source	3.0
+Deblender	Medium	2.0
+Deblender	2018	2.0
+Deblender	16	1.0
+DECODER	RNAseq + Microarray	3.0
+DECODER	Heterogeneous tissues	3.0
+DECODER	≥ 5 cell types	3.0
+DECODER	No GEP	3.0
+DECODER	No CP	3.0
+DECODER	GEP	3.0
+DECODER	CP	3.0
+DECODER	Complete	3.0
+DECODER	Unsupervised	3.0
+DECODER	Matrix factorisation	3.0
+DECODER	Scalable to medium–large cohorts	1.0
+DECODER	Functional enrichment analysis	2.0
+DECODER	Identification of relationships between cell subtypes	2.0
+DECODER	Transcriptoma cáncer	1.0
+DECODER	Matlab	3.0
+DECODER	Open source	3.0
+DECODER	Medium	2.0
+DECODER	2019	2.0
+DECODER	59	2.0
+DeCompress	RNAseq + Microarray	3.0
+DeCompress	Heterogeneous tissues	3.0
+DeCompress	≥ 5 cell types	3.0
+DeCompress	GEP	1.0
+DeCompress	No CP	3.0
+DeCompress	GEP	3.0
+DeCompress	CP	3.0
+DeCompress	Complete	3.0
+DeCompress	Semi-supervised	2.0
+DeCompress	Regression	2.0
+DeCompress	Scalable to medium–large cohorts	1.0
+DeCompress	Transcriptoma cáncer	1.0
+DeCompress	R	3.0
+DeCompress	Open source	3.0
+DeCompress	High	3.0
+DeCompress	2021	3.0
+DeCompress	8	1.0
+DeconICA	RNAseq + Microarray	3.0
+DeconICA	Heterogeneous tissues	3.0
+DeconICA	≥ 5 cell types	3.0
+DeconICA	No GEP	3.0
+DeconICA	No CP	3.0
+DeconICA	GEP	3.0
+DeconICA	CP	3.0
+DeconICA	Complete	3.0
+DeconICA	Unsupervised	3.0
+DeconICA	Matrix factorisation	3.0
+DeconICA	Prediction of clinical phenotypes and biological processes	2.0
+DeconICA	Transcriptoma cáncer	1.0
+DeconICA	R	3.0
+DeconICA	Matlab	3.0
+DeconICA	Open source	3.0
+DeconICA	Medium	2.0
+DeconICA	2018	2.0
+DeconICA	5	1.0
+DeconRNAseq	RNAseq	1.0
+DeconRNAseq	Heterogeneous tissues	3.0
+DeconRNAseq	≥ 5 cell types	3.0
+DeconRNAseq	GEP	1.0
+DeconRNAseq	No CP	3.0
+DeconRNAseq	CP	3.0
+DeconRNAseq	Partial	1.0
+DeconRNAseq	Supervised	1.0
+DeconRNAseq	Regression	2.0
+DeconRNAseq	Rare cell-type annotation	1.0
+DeconRNAseq	Tejidos mixtos	1.0
+DeconRNAseq	R	3.0
+DeconRNAseq	Open source	3.0
+DeconRNAseq	Medium	2.0
+DeconRNAseq	2013	1.0
+DeconRNAseq	191	3.0
+DSA (Digital Sorting)	Microarray	1.0
+DSA (Digital Sorting)	Heterogeneous tissues	3.0
+DSA (Digital Sorting)	≥ 5 cell types	3.0
+DSA (Digital Sorting)	GEP	1.0
+DSA (Digital Sorting)	No CP	3.0
+DSA (Digital Sorting)	GEP	3.0
+DSA (Digital Sorting)	CP	3.0
+DSA (Digital Sorting)	Complete	3.0
+DSA (Digital Sorting)	Supervised	1.0
+DSA (Digital Sorting)	Regression	2.0
+DSA (Digital Sorting)	Scalable to medium–large cohorts	1.0
+DSA (Digital Sorting)	Transcriptoma cáncer	1.0
+DSA (Digital Sorting)	R	3.0
+DSA (Digital Sorting)	Open source	3.0
+DSA (Digital Sorting)	High	3.0
+DSA (Digital Sorting)	2013	1.0
+DSA (Digital Sorting)	205	3.0
+dtangle	RNAseq + Microarray	3.0
+dtangle	Heterogeneous tissues	3.0
+dtangle	≥ 5 cell types	3.0
+dtangle	GEP	1.0
+dtangle	No CP	3.0
+dtangle	CP	3.0
+dtangle	Partial	1.0
+dtangle	Supervised	1.0
+dtangle	Regression	2.0
+dtangle	Células inmunitarias	1.0
+dtangle	R	3.0
+dtangle	Open source	3.0
+dtangle	High	3.0
+dtangle	2019	2.0
+dtangle	156	3.0
+EPIC	RNAseq	1.0
+EPIC	Heterogeneous tissues	3.0
+EPIC	≥ 5 cell types	3.0
+EPIC	GEP	1.0
+EPIC	No CP	3.0
+EPIC	CP	3.0
+EPIC	Partial	1.0
+EPIC	Supervised	1.0
+EPIC	Regression	2.0
+EPIC	Transcriptoma cáncer	1.0
+EPIC	R	3.0
+EPIC	Open source	3.0
+EPIC	High	3.0
+EPIC	2017	2.0
+EPIC	1048	3.0
+ESTIMATE	RNAseq + Microarray	3.0
+ESTIMATE	Heterogeneous tissues	3.0
+ESTIMATE	< 5 cell types	1.0
+ESTIMATE	GEP	1.0
+ESTIMATE	No CP	3.0
+ESTIMATE	CP	3.0
+ESTIMATE	Partial	1.0
+ESTIMATE	Supervised	1.0
+ESTIMATE	Enrichment	2.0
+ESTIMATE	Functional enrichment analysis	2.0
+ESTIMATE	Tumor purity estimation	1.0
+ESTIMATE	Transcriptoma cáncer	1.0
+ESTIMATE	R	3.0
+ESTIMATE	Open source	3.0
+ESTIMATE	High	3.0
+ESTIMATE	2013	1.0
+ESTIMATE	7721	3.0
+FARDEEP	RNAseq + Microarray	3.0
+FARDEEP	Heterogeneous tissues	3.0
+FARDEEP	≥ 5 cell types	3.0
+FARDEEP	GEP	1.0
+FARDEEP	No CP	3.0
+FARDEEP	CP	3.0
+FARDEEP	Partial	1.0
+FARDEEP	Supervised	1.0
+FARDEEP	Regression	2.0
+FARDEEP	Transcriptoma cáncer	1.0
+FARDEEP	R	3.0
+FARDEEP	Open source	3.0
+FARDEEP	High	3.0
+FARDEEP	2019	2.0
+FARDEEP	93	2.0
+GEDIT	RNAseq + Microarray	3.0
+GEDIT	Heterogeneous tissues	3.0
+GEDIT	≥ 5 cell types	3.0
+GEDIT	GEP	1.0
+GEDIT	No CP	3.0
+GEDIT	CP	3.0
+GEDIT	Partial	1.0
+GEDIT	Supervised	1.0
+GEDIT	Regression	2.0
+GEDIT	Comparative analysis of orthologous genes across species	1.0
+GEDIT	Células sanguíneas	1.0
+GEDIT	Células estromales	1.0
+GEDIT	Python	1.0
+GEDIT	R	3.0
+GEDIT	Open source	3.0
+GEDIT	High	3.0
+GEDIT	2021	3.0
+GEDIT	50	2.0
+GTM-decon	RNAseq	1.0
+GTM-decon	Heterogeneous tissues	3.0
+GTM-decon	≥ 5 cell types	3.0
+GTM-decon	GEP	1.0
+GTM-decon	No CP	3.0
+GTM-decon	CP	3.0
+GTM-decon	Partial	1.0
+GTM-decon	Semi-supervised	2.0
+GTM-decon	Probabilistic	3.0
+GTM-decon	Comparative analysis of orthologous genes across species	1.0
+GTM-decon	Transcriptoma cáncer	1.0
+GTM-decon	Python	1.0
+GTM-decon	Open source	3.0
+GTM-decon	Medium	2.0
+GTM-decon	2023	3.0
+GTM-decon	10	1.0
+ImmuCC	Microarray	1.0
+ImmuCC	Heterogeneous tissues	3.0
+ImmuCC	≥ 5 cell types	3.0
+ImmuCC	GEP	1.0
+ImmuCC	No CP	3.0
+ImmuCC	CP	3.0
+ImmuCC	Partial	1.0
+ImmuCC	Supervised	1.0
+ImmuCC	Regression	2.0
+ImmuCC	Visualization of cell-type abundances	1.0
+ImmuCC	Células inmunitarias	1.0
+ImmuCC	R	3.0
+ImmuCC	Open source	3.0
+ImmuCC	High	3.0
+ImmuCC	2017	2.0
+ImmuCC	202	3.0
+Linseed	RNAseq + Microarray	3.0
+Linseed	Heterogeneous tissues	3.0
+Linseed	≥ 5 cell types	3.0
+Linseed	No GEP	3.0
+Linseed	No CP	3.0
+Linseed	GEP	3.0
+Linseed	CP	3.0
+Linseed	Complete	3.0
+Linseed	Unsupervised	3.0
+Linseed	Convex hull	2.0
+Linseed	Scalable to medium–large cohorts	1.0
+Linseed	Tejidos mixtos	1.0
+Linseed	R	3.0
+Linseed	Open source	3.0
+Linseed	Medium	2.0
+Linseed	2019	2.0
+Linseed	106	3.0
+MCPcounter	Microarray	1.0
+MCPcounter	Heterogeneous tissues	3.0
+MCPcounter	≥ 5 cell types	3.0
+MCPcounter	GEP	1.0
+MCPcounter	No CP	3.0
+MCPcounter	CP	3.0
+MCPcounter	Partial	1.0
+MCPcounter	Supervised	1.0
+MCPcounter	Enrichment	2.0
+MCPcounter	Estimation of absolute abundances	1.0
+MCPcounter	Células estromales	1.0
+MCPcounter	Células inmunitarias	1.0
+MCPcounter	R	3.0
+MCPcounter	Open source	3.0
+MCPcounter	High	3.0
+MCPcounter	2016	2.0
+MCPcounter	2881	3.0
+MuSiC	RNAseq	1.0
+MuSiC	Heterogeneous tissues	3.0
+MuSiC	≥ 5 cell types	3.0
+MuSiC	GEP	1.0
+MuSiC	No CP	3.0
+MuSiC	CP	3.0
+MuSiC	Partial	1.0
+MuSiC	Semi-supervised	2.0
+MuSiC	Regression	2.0
+MuSiC	Automatic cell-type annotation	2.0
+MuSiC	Scalable to medium–large cohorts	1.0
+MuSiC	Tejidos mixtos	1.0
+MuSiC	R	3.0
+MuSiC	Open source	3.0
+MuSiC	High	3.0
+MuSiC	2019	2.0
+MuSiC	835	3.0
+TEMT	RNAseq	1.0
+TEMT	Heterogeneous tissues	3.0
+TEMT	< 5 cell types	1.0
+TEMT	GEP	1.0
+TEMT	No CP	3.0
+TEMT	GEP	3.0
+TEMT	CP	3.0
+TEMT	Complete	3.0
+TEMT	Supervised	1.0
+TEMT	Probabilistic	3.0
+TEMT	Tejidos mixtos	1.0
+TEMT	Python	1.0
+TEMT	Open source	3.0
+TEMT	High	3.0
+TEMT	2013	1.0
+TEMT	65	2.0
+TIMER	RNAseq + Microarray	3.0
+TIMER	Heterogeneous tissues	3.0
+TIMER	≥ 5 cell types	3.0
+TIMER	GEP	1.0
+TIMER	No CP	3.0
+TIMER	CP	3.0
+TIMER	Partial	1.0
+TIMER	Supervised	1.0
+TIMER	Regression	2.0
+TIMER	Transcriptoma cáncer	1.0
+TIMER	Web tool	1.0
+TIMER	Open source	3.0
+TIMER	High	3.0
+TIMER	2017	2.0
+TIMER	3718	3.0
+TOAST	RNAseq + Microarray	3.0
+TOAST	Heterogeneous tissues	3.0
+TOAST	≥ 5 cell types	3.0
+TOAST	No GEP	3.0
+TOAST	No CP	3.0
+TOAST	GEP	3.0
+TOAST	CP	3.0
+TOAST	Complete	3.0
+TOAST	Unsupervised	3.0
+TOAST	Regression	2.0
+TOAST	Flexibility for methylation data handling	1.0
+TOAST	Tejidos mixtos	1.0
+TOAST	Células estromales	1.0
+TOAST	R	3.0
+TOAST	Open source	3.0
+TOAST	High	3.0
+TOAST	2019	2.0
+TOAST	81	2.0
+UNDO	Microarray	1.0
+UNDO	Heterogeneous tissues	3.0
+UNDO	< 5 cell types	1.0
+UNDO	No GEP	3.0
+UNDO	No CP	3.0
+UNDO	GEP	3.0
+UNDO	CP	3.0
+UNDO	Complete	3.0
+UNDO	Unsupervised	3.0
+UNDO	Matrix factorisation	3.0
+UNDO	Marker gene identification	1.0
+UNDO	Transcriptoma cáncer	1.0
+UNDO	R	3.0
+UNDO	Open source	3.0
+UNDO	Medium	2.0
+UNDO	2015	2.0
+UNDO	56	2.0
+xCell	RNAseq + Microarray	3.0
+xCell	Heterogeneous tissues	3.0
+xCell	< 5 cell types	1.0
+xCell	GEP	1.0
+xCell	No CP	3.0
+xCell	GEP	3.0
+xCell	Partial	1.0
+xCell	Supervised	1.0
+xCell	Enrichment	2.0
+xCell	Functional enrichment analysis	2.0
+xCell	Transcriptoma cáncer	1.0
+xCell	Sistema nervioso	2.0
+xCell	R	3.0
+xCell	Web tool	1.0
+xCell	Open source	3.0
+xCell	High	3.0
+xCell	2017	2.0
+xCell	3713	3.0
