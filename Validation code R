@@ -1,0 +1,171 @@
+
+# ============================
+# LIBRERÍAS
+# ============================
+library(Matrix)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(readxl)
+library(tibble)
+
+# ============================
+# 1. CARGAR MATRIZ
+# ============================
+mat <- readMM("2026-04-15_Astrocytes_EC_matrix.mtx")
+
+# ============================
+# 2. CARGAR GENES (SIN HEADER)
+# ============================
+row_anno <- read.delim(
+  "2026-04-15_Astrocytes_EC_row_annotation.txt",
+  header = FALSE
+)
+
+rownames(mat) <- row_anno$V1
+
+# ============================
+# 3. CREAR METADATA SEGURA
+# ============================
+meta <- data.frame(cell_id = colnames(mat))
+meta$donor_id <- sub(".*_", "", meta$cell_id)
+
+# ============================
+# 4. CARGAR METADATA BRAAK
+# ============================
+meta_ext <- read_excel("2026-04-15_Astrocytes_metadata.xlsx")
+
+meta_ext2 <- meta_ext %>%
+  dplyr::select(cell_annotation, SampleName, Braak) %>%
+  dplyr::rename(
+    cell_id = cell_annotation,
+    donor_id = SampleName
+  )
+
+# ⚠️ join ROBUSTO (solo por cell_id)
+meta_full <- meta %>%
+  left_join(meta_ext2, by = "cell_id")
+
+# ============================
+# 5. DEFINIR STAGES
+# ============================
+meta_full$stage_group <- case_when(
+  meta_full$Braak == "II"  ~ "Control",
+  meta_full$Braak == "III" ~ "Incipient",
+  meta_full$Braak == "V"   ~ "Moderate",
+  meta_full$Braak == "VI"  ~ "Severe"
+)
+
+# eliminar NA si hay
+meta_full <- meta_full %>%
+  filter(!is.na(stage_group))
+
+# ============================
+# 6. ALINEAR MATRIZ Y META
+# ============================
+mat <- mat[, meta_full$cell_id]
+
+# ============================
+# 7. PSEUDOBULK POR STAGE
+# ============================
+group <- factor(meta_full$stage_group)
+
+design <- model.matrix(~0 + group)
+colnames(design) <- levels(group)
+
+pseudo_stage <- mat %*% design
+
+cell_counts <- table(group)
+cell_counts <- as.numeric(cell_counts)
+names(cell_counts) <- colnames(pseudo_stage)
+
+pseudo_stage <- sweep(pseudo_stage, 2, cell_counts, "/")
+
+pseudo_stage_df <- as.data.frame(as.matrix(pseudo_stage))
+pseudo_stage_df$geneID <- rownames(pseudo_stage_df)
+
+serrano <- pseudo_stage_df
+
+# ============================
+# 8. CARGAR DECODER
+# ============================
+control   <- read_csv("Mean_Control.csv")
+incipient <- read_csv("Mean_Incipient.csv")
+moderate  <- read_csv("Mean_Moderate.csv")
+severe    <- read_csv("Mean_Severe.csv")
+
+control$stage   <- "Control"
+incipient$stage <- "Incipient"
+moderate$stage  <- "Moderate"
+severe$stage    <- "Severe"
+
+decoder_all <- bind_rows(control, incipient, moderate, severe)
+
+decoder_mat <- decoder_all %>%
+  dplyr::select(geneID, stage, Promedio) %>%
+  pivot_wider(names_from = stage, values_from = Promedio)
+
+# ============================
+# 9. LIMPIAR GENES
+# ============================
+serrano$geneID     <- toupper(trimws(serrano$geneID))
+decoder_mat$geneID <- toupper(trimws(decoder_mat$geneID))
+
+# ============================
+# 10. INTERSECCIÓN
+# ============================
+common_genes <- intersect(serrano$geneID, decoder_mat$geneID)
+
+serrano_filt <- serrano %>%
+  filter(geneID %in% common_genes)
+
+decoder_filt <- decoder_mat %>%
+  filter(geneID %in% common_genes)
+
+# alinear orden
+serrano_filt <- serrano_filt[match(common_genes, serrano_filt$geneID), ]
+decoder_filt <- decoder_filt[match(common_genes, decoder_filt$geneID), ]
+
+# quitar rownames
+rownames(serrano_filt) <- NULL
+rownames(decoder_filt) <- NULL
+
+# matrices finales
+serrano_mat <- column_to_rownames(serrano_filt, "geneID")
+decoder_mat2 <- column_to_rownames(decoder_filt, "geneID")
+
+# ============================
+# 11. CARGAR MARCADORES
+# ============================
+markers <- read_excel("astrocytesmarkers.xlsx")
+
+astro_markers <- markers %>%
+  filter(`Cell name` == "Astrocyte") %>%
+  pull(`Cell marker`) %>%
+  toupper() %>%
+  trimws() %>%
+  unique()
+
+common_markers <- intersect(astro_markers, rownames(serrano_mat))
+common_markers <- intersect(common_markers, rownames(decoder_mat2))
+
+serrano_markers <- serrano_mat[common_markers, ]
+decoder_markers <- decoder_mat2[common_markers, ]
+
+# ============================
+# 12. LOG TRANSFORM
+# ============================
+serrano_markers <- log2(serrano_markers + 1)
+decoder_markers <- log2(decoder_markers + 1)
+
+# ============================
+# 13. CHECK FINAL
+# ============================
+cat("Serrano matrix:", dim(serrano_mat), "\n")
+cat("Decoder matrix:", dim(decoder_mat2), "\n")
+cat("Common genes:", length(common_genes), "\n")
+cat("Astrocyte markers:", length(common_markers), "\n")
+
+# ============================
+# LISTO
+# ============================
